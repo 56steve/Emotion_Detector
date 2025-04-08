@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Emotion Detection</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: blue; 
+      }
+
+      img {
+        border: 5px solid black; 
+      }
+    </style>
+  </head>
+  <body>
+    <h1>EMOTION DETECTOR</h1>
+    <img src="{{ url_for('video_feed') }}" width="640" height="480">
+  </body>
+</html>
